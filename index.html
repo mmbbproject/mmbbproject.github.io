@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head itemscope="itemscope" itemtype="http://schema.org/WebSite">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Minimalist Modern Bootstrap Blogger">
     <meta name="author" content="Husein">
-	<meta name="google-site-verification" content="VH2Q0QAWXrwGH4m_GSxzNiASTcV7wqSwIDoKiUGQwyI" />  
+		<meta name="google-site-verification" content="VH2Q0QAWXrwGH4m_GSxzNiASTcV7wqSwIDoKiUGQwyI" />  
   	<meta content='Template Minimalist untuk Blogger blogspot berbasiskan Bootstrap, template super responsive dan tampil baik di banyak browser' name='keywords'/> 
 
 	<meta content='Indonesia' name='language'/>
@@ -39,22 +39,25 @@
 
 	<meta content='Minimalist Modern Bootstrap Blogger' property='og:site_name'/>
 	<meta content='Template Minimalist untuk Blogger blogspot berbasiskan Bootstrap, template super responsive dan tampil baik di banyak browser' property='og:description'/>
-
 	<meta content='en_US' property='og:locale'/>
 	<meta content='en_GB' property='og:locale:alternate'/>
 	<meta content='id_ID' property='og:locale:alternate'/>
 
 	<meta content='summary' name='twitter:card'/>
-	<meta expr:content='data:blog.pageTitle' name='twitter:title'/>
+	<meta content='Minimalist Modern Bootstrap Blogger' name='twitter:title'/>
 	<meta content='@ox69xo' name='twitter:site'/>
 	<meta content='@ox69xo' name='twitter:creator'/>
- 	
-    <link href='http://lh5.ggpht.com/_S5fClweHD6k/S8Mnt8UGCVI/AAAAAAAAAE4/hYfA3xFbETs/ox2.png' rel='shortcut icon'/>
-	<link rel="stylesheet" id="options-google-fonts" href="//fonts.googleapis.com/css?family=Roboto:300,400&subset=latin" type="text/css" media="all"/> 
 
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/styles.css" rel="stylesheet">
-    <title>Minimalist Modern Bootstrap Blogger</title>
+	<link href='https://plus.google.com/113540462412100538166' rel='publisher'/>
+	<link href='https://plus.google.com/113540462412100538166' rel='author'/>
+	<link href='https://plus.google.com/113540462412100538166' rel='me'/>
+	<link href="assets/img/ox-favicon.ico" rel="icon" type="image/x-icon"/>
+
+	<link rel="stylesheet" id="options-google-fonts" href="//fonts.googleapis.com/css?family=Roboto:300,400&subset=latin" type="text/css" media="all"/> 
+  <link href="assets/css/bootstrap.min.without.glyphicon.css" rel="stylesheet"/>
+  <link href="assets/css/mmbb.icon.min.css" rel="stylesheet"/>  
+  <link href="assets/css/styles.css" rel="stylesheet"/>
+  <title>Minimalist Modern Bootstrap Blogger</title>
   </head>
 
   <body>
@@ -64,7 +67,7 @@
       <div class="container text-center">
         <h1>MMBB Template Blogger</h1>
         <p>Free! Dibangun menggunakan Bootstrap, front-end framewok paling hits sampai saat ini. Dengan dasar minimalist dan responsive di banyak device, menjadikan template ini layak untuk di coba. </p>
-        <p><a class="btn btn-default btn-lg" href="https://github.com/mmbbproject/mmbb" target="_blank" role="button">Download &nbsp;<span class='glyphicon glyphicon-download'></span></a></p>
+        <p><a class="btn btn-default btn-lg btn-ox" href="https://github.com/mmbbproject/mmbb" target="_blank" role="button">Download &nbsp;<span class='icon jqh-download icon-sm'></span></a></p>
       </div>
       <div class="jumbotronfooter"><span>Link github & other social network</span></div>
     </div>
@@ -103,19 +106,18 @@
          <p>
           <ul>
            <li><span class="text-muted">21 Maret 2017</span> redesign template. Home post, post detail dan sidebar widget tidak lagi menggunakan style buatan sendiri. Ganti dengan component Panel dari Bootstrap. </li>
-          </ul>         
+          </ul>
          </p>
       </div> <!-- /.sidebar -->
       </div><!-- /.main row -->
-    </div>
+    </div><!-- /.container -->
 
-
-<footer>
-<div class='container'>
-<p>Copyleft &copy; 2017 <a href='http://twitter.com/ox69xo' target='_blank'>ox69xo</a> &middot; <a href='http://jqueryholic.blogspot.co.id/' target='_blank'>MMBB Project blog</a>
-<span><span class="hidden-lg hidden-md"> &middot; </span>Hosted by <a href='http://github.com' target='_blank'>Github</a>.</span>
-</p>
-</div>
-</footer>
+	<footer itemscope='itemscope' itemtype='http://schema.org/WPFooter'>
+		<div class='container' itemprop='creator' itemscope='itemscope' itemtype='http://schema.org/Person'>
+			<p>Copyleft &copy; 2017 <a href='http://twitter.com/ox69xo' target='_blank' itemprop='url'><span itemprop='name'>ox69xo</span></a> &middot; <a href='http://jqueryholic.blogspot.co.id/' target='_blank'>MMBB Project blog</a>
+				<span class='flast'><span class="hidden-lg hidden-md"> &middot; </span>Hosted by <a href='http://github.com' target='_blank'>Github</a>.</span>
+			</p>
+		</div>
+	</footer>
   </body>
 </html>

@@ -31,16 +31,29 @@ background: linear-gradient(45deg, rgba(238,135,160,1) 0%, rgba(55,125,200,1) 10
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee87a0', endColorstr='#377dc8', GradientType=1 );
 }
 
+.icon {
+  display: inline-block;
+  vertical-align: -15%;
+  position:relative;
+  font: normal normal normal 14px/1 mmbb-font;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;	
+}
+.icon-sm {font-size:1.33333333em;line-height: 0.75em;vertical-align: -30%}
+.icon-md {font-size:1.66666666em;line-height: 1em;vertical-align: -28%}
+
 #main, #sidebar {padding:15px}
 #sidebar ul {margin:0;padding-left:16px;}
-
+.btn-ox {background-color:transparent;border-radius:12px;color:#fff;border-width:2px;}
+.btn-ox:hover{background-color:transparent;color:#ddd;}
 body > footer {
 padding:20px 0 50px 0;
 border-top: 1px solid #ccc;
 }
 
 @media (min-width:992px){
-  footer span {float:right;}
+  footer span.flast {float:right;}
 }
 @media (max-width:767px){
  #main, #sidebar {padding:8px;}
