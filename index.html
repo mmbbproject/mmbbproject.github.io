@@ -61,7 +61,7 @@
 	<link href="assets/img/ox-favicon.ico" rel="icon" type="image/x-icon"/>
 
 <!-- 	<link rel="stylesheet" id="options-google-fonts" href="//fonts.googleapis.com/css?family=Roboto:300,400&subset=latin" type="text/css" media="all"/>  -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i&subset=latin" rel="stylesheet"/>
+	<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i&subset=latin" rel="stylesheet"/> -->
 
   <link href="assets/css/bootstrap.min.without.glyphicon.css" rel="stylesheet"/>
   <link href="assets/css/mmbb.icon.min.css" rel="stylesheet"/>  
@@ -147,7 +147,7 @@
               </div>            
             </div>              
            </li>
-           <li class="list-group-item">
+           <li class="list-group-item" id="u-category">
             <div class="media">          
               <div class="media-body">
                 <h4>Category <small>widget</small></h4>
@@ -160,7 +160,7 @@
               </div>            
             </div>              
            </li>
-           <li class="list-group-item">
+           <li class="list-group-item" id="u-pager">
             <div class="media">
               <div class="media-body">
                 <h4>Pager</h4>
@@ -173,19 +173,32 @@
               </div>            
             </div>              
            </li> 
-           <li class="list-group-item">
+           <li class="list-group-item" id="u-status-msg">
             <div class="media">
               <div class="media-body">
                 <h4>Status Message</h4>
                 <p class="text-muted">
-                  Style dan posisi <i>Status Message</i> lebih rapih, posisi berada di kolom utama yang sama dengan <i>home post</i> dan <i>post detail</i> sehingga jika ada <i>Error search not found</i> ataupun <i>Error page not found</i> maka kolom sidebar1 dan sidebar2 tetap pada tempatnya.
+                  Style dan posisi <i>Status Message</i> lebih rapih, posisi berada di kolom utama yang sama dengan <i>home post</i> dan <i>post detail</i> sehingga jika ada <i class="text-danger">Error search not found</i> ataupun <i class="text-warning">Error page not found</i> maka kolom sidebar1 dan sidebar2 tetap pada tempatnya.
                 </p>             
               </div>
               <div class="media-left media-middle">
                 <span class='icon jqh-check-circle-o icon-sm'></span>
               </div>            
             </div>              
-           </li>  
+           </li>
+           <li class="list-group-item">
+            <div class="media">
+              <div class="media-body">
+                <h4>Header Menu</h4>
+                <p class="text-muted">
+                  Style <i>Header Menu</i> berubah jika halaman yang aktif sama dengan salahsatu menu. Sama seperti <a href="#u-category">Category</a> dan <a href="#u-pager">Pager</a>, style berubah jika halaman yang aktif sama dengan salahsatu element.
+                </p>             
+              </div>
+              <div class="media-left media-middle">
+                <span class='icon jqh-check-circle-o icon-sm'></span>
+              </div>            
+            </div>              
+           </li>            
            <li class="list-group-item">
             <div class="media">
               <div class="media-body">
@@ -223,7 +236,7 @@
               <div class="media-body">
                 <h4>Mobile First</h4>
                 <p class="text-muted">
-                 Karena dibangun menggunakan <a href="https://getbootstrap.com/" title="Bootstrap" target="_blank">Bootstrap</a>, maka semua fitur Bootstrap pasti bisa di terapkan di <a href="https://mmbbproject.github.io/" title="MMBB Template Project" target="_self">MMBB Template</a> ini. Bootstrap v3.3.7 sudah mendukung fitur <i>mobile first</i>, artinya tampilan dan performa lebih di utamakan untuk mobile. Istilah lainnya yaitu Mobile Friendly, untuk test kunjungi <a href="https://search.google.com/search-console/mobile-friendly?id=00CsGgjU-kL62lB-nwXvMQ"target="_blank" title="Mobile Friendly MMBB Template" >Mobile-Friendly Test Google</a>.
+                 Karena dibangun menggunakan <a href="https://getbootstrap.com/" title="Bootstrap" target="_blank">Bootstrap</a>, maka semua fitur Bootstrap pasti bisa di terapkan di <a href="https://mmbbproject.github.io/" title="MMBB Template Project" target="_self">MMBB Template</a> ini. Bootstrap v3.3.7 sudah mendukung fitur <i>mobile first</i>, artinya tampilan dan performa lebih di utamakan untuk mobile. Istilah lainnya yaitu <span class="text-success">Mobile Friendly</span>, untuk test kunjungi <a href="https://search.google.com/search-console/mobile-friendly?id=00CsGgjU-kL62lB-nwXvMQ"target="_blank" title="Mobile Friendly MMBB Template">Mobile-Friendly Test Google</a>.
                 </p>
               </div>
               <div class="media-left media-middle">
