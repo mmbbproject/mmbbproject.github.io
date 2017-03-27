@@ -61,16 +61,17 @@
 	<link href="assets/img/ox-favicon.ico" rel="icon" type="image/x-icon"/>
 
 <!-- 	<link rel="stylesheet" id="options-google-fonts" href="//fonts.googleapis.com/css?family=Roboto:300,400&subset=latin" type="text/css" media="all"/>  -->
-<!-- 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i&subset=latin" rel="stylesheet"/> -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i&subset=latin" rel="stylesheet"/>
 
   <link href="assets/css/bootstrap.min.without.glyphicon.css" rel="stylesheet"/>
   <link href="assets/css/mmbb.icon.min.css" rel="stylesheet"/>  
   <link href="assets/css/styles.css" rel="stylesheet"/>
-  <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>  
+  <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/> 
+<!--   <link href="assets/css/ekko-lightbox.min.css" rel="stylesheet"/>   --> 
   <title>MMBB Template</title>
   </head>
 
-  <body>
+ <body>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
@@ -278,30 +279,25 @@
             </ul>
          </div>
 
-<!--          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sidebar">
-
- <h2>Screenshot</h2>
- <div class="row" id="screenshot">
-   <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
-     <div class="thumbnail">
-       <img src="../screenshot/desktop-home-thumb.jpg" alt="Desktop Home Page">
-       <div class="caption">
-         <h4>Desktop Home</h4>
-         <p>sssssssss</p>
-       </div>
-     </div>
-   </div>
-   <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
-     <div class="thumbnail">
-       <a href="#"><img src="../screenshot/desktop-post-detail-thumb.jpg" alt="Desktop Home Page"/></a>
-       <div class="caption">
-         <h4>Desktop Home</h4>
-         <p>sssssssss</p>
-       </div>
-     </div>
-   </div>          
- </div>/.screenshot
-</div>/.sidebar -->
+<!--           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sidebar">
+					 <h2>Screenshot</h2>
+					 <div class="row" id="screenshot">
+					   <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
+					     <div class="thumbnail">
+								<a href="../demo/desktop-home.jpg" data-toggle="lightbox" data-title="Desktop Home Page">
+								    <img src="../screenshot/desktop-home-thumb.jpg">
+								</a>
+					     </div>
+					   </div>
+					   <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
+					     <div class="thumbnail">
+								<a href="../demo/desktop-detail.jpg" data-toggle="lightbox" data-title="Desktop Page Detail">
+								    <img src="../screenshot/desktop-detail-thumb.jpg">
+								</a>
+					     </div>
+					   </div>          
+					 </div>/.screenshot
+					</div>/.sidebar -->
 
         </div> <!-- /.row first -->
       </div> <!-- /#sidebar -->
@@ -316,10 +312,14 @@
 			</p>
 		</div>
 	</footer>
-<!-- <script type='text/javascript' src='assets/js/jquery-3.1.1.min.js'></script>
-<script type='text/javascript' src='assets/js/modal.js'></script>
-<script type='text/javascript'>
-  
+<!-- 	<script type='text/javascript' src='assets/js/jquery-3.1.1.min.js'></script>
+<script type='text/javascript' src='assets/js/modal.min.js'></script>	
+<script type='text/javascript' src='assets/js/ekko-lightbox.min.js'></script>
+<script type="text/javascript">
+	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+	    event.preventDefault();
+	    $(this).ekkoLightbox();
+	});
 </script> -->
-  </body>
+ </body>
 </html>
