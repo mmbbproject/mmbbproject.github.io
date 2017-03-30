@@ -2,7 +2,7 @@
 body {
   font-family:"Open Sans";
 }
-hr {margin-top:0;margin-bottom:0;border-color:#ccc;}
+
 a, a:hover {transition:.5s;}
 h1,h2,h3,h4,p, * {font-weight:400;}
 svg{position:relative;fill:currentColor;vertical-align: -12.44444%}
@@ -46,9 +46,9 @@ svg{position:relative;fill:currentColor;vertical-align: -12.44444%}
 .icon-md {font-size:1.66666666em;line-height: 1em;vertical-align: -28%}
 
 #main, #sidebar {padding:15px}
-#main .list-group-item:hover{background-color:#f1f1f1;}
-#main .list-group-item:hover .jqh-check-circle-o {color:#3c763d}
-#main .list-group-item:hover .jqh-times-circle-o {color:#a94442}
+#main .list-group-item:hover,#sidebar .list-group-item:hover{background-color:#f1f1f1;}
+#main .list-group-item:hover .jqh-check-circle-o,#sidebar .list-group-item:hover .jqh-check-circle-o {color:#3c763d}
+#main .list-group-item:hover .jqh-times-circle-o,#sidebar .list-group-item:hover .jqh-times-circle-o {color:#a94442}
 
 .list-group-item .media-left {padding-right:0;padding-left: 5px}
 .list-group-item .media-body p{margin-bottom: 0;margin-top:8px;}
@@ -63,8 +63,10 @@ svg{position:relative;fill:currentColor;vertical-align: -12.44444%}
 .btn-ox:hover, .btn-ox:focus, .btn-ox:active, 
 .btn-ox:active:focus, .btn-ox:active:hover{background-color:transparent;color:#ddd;}
 #screenshot {margin-top:12px;text-align:center;}
-#sidebar ul {margin:0;padding-left:18px;}
+#sidebar .sidebar ul {margin:0}
+#sidebar .sidebar:not(:first-of-type) ul {padding-left:18px}
 #sidebar ul li:not(:first-child) {padding-top: 8px;}
+
 body > footer {
 padding:20px 0;
 border-top: 1px solid #ccc;
@@ -76,7 +78,8 @@ border-top: 1px solid #ccc;
 }
 @media (max-width:991px){
  #main, #sidebar .sidebar:not(:last-of-type) {padding:8px;}
- #sidebar .sidebar:last-of-type > h2{margin-left:-8px;padding-top:8px;}
+ #sidebar .sidebar:last-of-type > h2{margin-left:-7px;padding-top:8px;}
+ #sidebar .sidebar:last-of-type ul{margin-left:-6px;}
  #screenshot .col-xs-12{padding:0 8px;}
  #sidebar .sidebar {margin-top:-20px;}
  #main{padding-bottom: 0}
