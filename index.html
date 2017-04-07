@@ -11,6 +11,7 @@
     <meta content='to.husein@gmail.com' name='Email'/>
     <meta name="msvalidate.01" content="381D091E25B08F43607B438BDFD2DFE9" />
     <meta name="google-site-verification" content="VH2Q0QAWXrwGH4m_GSxzNiASTcV7wqSwIDoKiUGQwyI" />
+    <meta content='assets/img/thumb.jpg' name='image_src'/>
     <!-- <meta content='xxxx' name='yandex-verification'/>     -->
     <meta name="title" content="Minimalist Modern Bootstrap Blogger"/>
 
@@ -68,7 +69,7 @@
   	<meta content='summary' name='twitter:card'/>
   	<meta content='Minimalist Modern Bootstrap Blogger' name='twitter:title'/>
   	<meta content='@ox69xo' name='twitter:site'/>
-    <meta content='assets/img/thumb.jpg' property='twitter:image'/>
+    <meta content='assets/img/thumb.jpg' name='twitter:image'/>
   	<meta content='@ox69xo' name='twitter:creator'/>
     <meta content="Bootstrap Template Blogger Gratis, super responsive, modern dan style bersih. Sangat minimalist dan template dasar, mudah di custom." name="twitter:description"/>
 
@@ -159,9 +160,10 @@
            <li class="list-group-item">
             <div class="media">          
               <div class="media-body">
-                <h4>Breadcrumb 2 label</h4>
+                <h4>Breadcrumb <small>2 label/category</small></h4>
                 <p class="text-muted">
-                  Mendukung 2 label yang aktif di Breadcrumb, urutannya: label pertama > label kedua. Contoh: <b>Home</b> / <b>Tech</b> / <b>Mobile</b> / Judul postingan. 
+                  Mendukung 2 label yang aktif di Breadcrumb, urutannya: <em>label pertama > label kedua</em>. Contoh: <b>Home</b> / <b>Tech</b> / <b>Mobile</b> / Judul postingan. Jadi pastikan menempatkan urutan label/category postingan dengan tepat jika label/category mau terlihat rapih di <b>Breadcrumb</b>.<br />
+                  <span class="text-info">Note: Breadcrumb akan muncul di semua halaman, termasuk home.</span>
                 </p>                
               </div>
               <div class="media-left">
@@ -233,20 +235,20 @@
               <div class="media-body">
                 <h4>Header Menu</h4>
                 <p class="text-muted">
-                  Style <i>Header Menu</i> berubah jika halaman yang aktif sama dengan salahsatu menu. Sama seperti <a href="#u-category">Category</a> dan <a href="#u-pager">Pager</a>, style berubah jika halaman yang aktif sama dengan salahsatu element.
+                  Style <i>Header Menu</i> berubah jika halaman yang aktif sama dengan salahsatu menu. Sama seperti <a href="#u-category" target="_self">Category</a>, <a href="#u-pager" target="_self">Popular post</a> dan <a href="#u-pager" target="_self">Pager</a>, style berubah jika halaman yang aktif sama dengan salahsatu element.
                 </p>             
               </div>
               <div class="media-left">
                 <span class='icon jqh-check-circle-o icon-sm'></span>
-              </div>            
-            </div>              
+              </div>
+            </div>
            </li>
            <li class="list-group-item">
             <div class="media">
               <div class="media-body">
                 <h4>Archive <small>widget</small></h4>
                 <p class="text-muted">
-                  Terdapat fitur Widget Archive menggantikan style HIERARCY bawaan Blogger, menggunakan element <i>List Inline</i> Bootstrap dengan bantuan jQuery selector.
+                  Terdapat fitur Widget Archive menggantikan style HIERARCY bawaan Blogger, menggunakan element <i>List Inline</i> Bootstrap dengan bantuan <a href="https://api.jquery.com/category/selectors/" target="_blank" title="jQuery Selector">jQuery selector</a>. Icon toggle sudah di custom, ukuran serta jarak lebih disesuaikan untuk mode mobile, sehingga mudah di <em>Tap</em> (sentuh).
                 </p> 
               </div>
               <div class="media-left">
@@ -259,7 +261,7 @@
               <div class="media-body">
                 <h4>Recent comment <small>widget</small></h4>
                 <p class="text-muted">
-                  Membuat Recent comment sangat memungkinkan dengan adanya API yang disediakan oleh Disqus.
+                  Membuat Recent comment sangat memungkinkan dengan adanya API yang disediakan oleh <a href="https://disqus.com/api/docs/" target="_blank" title="Disqus API">Disqus</a>.
                 </p> 
               </div>
               <div class="media-left">
@@ -283,16 +285,19 @@
            <li class="list-group-item">
             <div class="media">
               <div class="media-body">
-                <h4>Font Icon</h4>
+                <h4>Font Icon <small>khusus</small></h4>
                 <p class="text-muted">
-                  Menghilangkan default font-icon <a href="https://glyphicons.com" title="Glyphicon free for Bootstrap" target="_blank"><i>Glyphicons</i></a>, diganti dengan <a href="https://jqueryholic.blogspot.co.id/" target="_blank">MMBB-Font icon</a>, custom beberapa icon (kurang dari 50) menjadikan font-icon ini sangat ringan. Icon yang ada di <a href="https://jqueryholic.blogspot.co.id/" target="_blank">MMBB-Font</a> diantaranya: 
+                  Menghilangkan default font-icon <a href="https://glyphicons.com" title="Glyphicon free for Bootstrap" target="_blank"><i>Glyphicons</i></a>, diganti dengan <a href="https://jqueryholic.blogspot.co.id/2017/03/membuat-custom-font-icon-web-blog.html" target="_blank">MMBB-Font icon</a>, custom beberapa icon (kurang dari 50) menjadikan font-icon ini sangat ringan. Icon yang ada di <a href="https://jqueryholic.blogspot.co.id/2017/03/membuat-custom-font-icon-web-blog.html" target="_blank">MMBB-Font</a> diantaranya: 
                   <span class="icon jqh-home"></span> 
                   <span class="icon jqh-twitter"></span><span class="icon jqh-twitter-square"></span>  
                   <span class="icon jqh-facebook"></span><span class="icon jqh-facebook-square"></span>
                   <span class="icon jqh-googleplus"></span><span class="icon jqh-googleplus-square"></span>
                   <span class="icon jqh-github"></span><span class="icon jqh-github-square"></span>
                   <span class="icon jqh-instagram"></span>
-                </p>             
+                </p>
+                <p class="text-muted">
+                  Masih mau menggunakan Font Icon yang berjumlah lebih dari 400, tapi yang di pakai hanya 10 icon? Lebih baik custom sesuai keperluan, caranya di <a href="https://jqueryholic.blogspot.co.id/2017/03/membuat-custom-font-icon-web-blog.html" target="_blank">jQueryHolic</a>.
+                </p>
               </div>
               <div class="media-left">
                 <span class='icon jqh-check-circle-o icon-sm'></span>
@@ -330,6 +335,9 @@
                 </p>
                 <p class="text-muted">Untuk test, buka halaman <a href="https://ip3web.blogspot.co.id/" title="MMBB Template Demo" target="_blank">MMBB Demo</a> dan masuk ke menu Developer di browser, caranya: <span class="text-success">Chrome</span> tekan tombol keyboard <code>Ctrl + Shift + I</code>, untuk <span class="text-danger">Firefox</span> tekan <code>Ctrl + Shift + M</code>.
                 </p>
+                <p class="text-success">
+                 Catatan: fitur Responsive sepenuhnya menggunakan CSS Bootstrap, kode tidak berbelit-belit pada Blogger xml<code>isMobileRequest</code>.
+                </p>
               </div>
               <div class="media-left">
                 <span class='icon jqh-check-circle-o icon-sm'></span>
@@ -341,15 +349,31 @@
               <div class="media-body">
                 <h4>Full Custom</h4>
                 <p class="text-muted">
-                  Menghilangkan CSS dan Javascript bawaan <i>Blogger</i>, menghilangkan font-icon <i>Glyphicon</i> Bootstrap ( menggantinya dengan MMBB-Font, koleksi &lt; 50 icons) dan menghilangkan komponen CSS (well, jumbotron) dari Bootstrap menjadikan <a href="htts://mmbbproject.github.io" target="_self">MMBB Template</a> ini sangat ringan.<br />
-                  <span class="text-danger">*Catatan: dengan menghilangkan CSS dan JS bawaan Blogger, maka beberapa widget akan tidak berjalan.</span>
+                  Menghilangkan CSS dan Javascript bawaan <i>Blogger</i>, menghilangkan font-icon <i>Glyphicon</i> Bootstrap ( menggantinya dengan MMBB-Font, koleksi &lt; 50 icons) dan menghilangkan komponen CSS (well, jumbotron, nav dsb) dari Bootstrap menjadikan <a href="htts://mmbbproject.github.io" target="_self">MMBB Template</a> ini sangat ringan.<br />
+                  <span class="text-danger">Catatan: dengan menghilangkan CSS dan JS bawaan Blogger, maka beberapa widget akan tidak berjalan.</span>
+                </p>
+              </div>
+              <div class="media-left">
+                <span class='icon jqh-check-circle-o icon-sm'></span>
+              </div>
+            </div>
+           </li>
+           <li class="list-group-item">
+            <div class="media">
+              <div class="media-body">
+                <h4>Kode XML lebih rapih <small>dan disederhanakan</small></h4>
+                <p class="text-muted">
+                  Untuk yang suka intip kode atau sekedar menambah wawasan, bisa di contoh kode xml <em>MMBB Template</em> ini. Penulisannya lebih rapih dan terstruktur, sehingga mudah dipahami. Gunakan kode editor yang support toggle/folding kode.
+                </p>
+                <p class="text-info">
+                  Catatan: untuk kode Javascript, sengaja di Obfuscate.
                 </p>
               </div>
               <div class="media-left">
                 <span class='icon jqh-check-circle-o icon-sm'></span>
               </div>            
             </div>              
-           </li>     
+           </li>              
           </ul>
          </div>
 
@@ -364,7 +388,7 @@
           <h2>Changelog</h2>
             <ul>
              <li><span class="text-muted">21 Maret 2017 &middot;</span> Redesign template, home post, post detail dan sidebar widget tidak lagi menggunakan style buatan sendiri. Ganti dengan component Panel dari Bootstrap. </li>
-             <li><span class="text-muted">24 Maret 2017 &middot;</span> Mengganti <a href="https://glyphicons.com" title="Glyphicons" target="_blank">Glyphicon</a> ke <a href="https://jqueryholic.blogspot.co.id" title="MMBB Template Blog" target="_blank">MMBB-font</a> icon, remove CSS dan JS default Blogger.</li>             
+             <li><span class="text-muted">24 Maret 2017 &middot;</span> Mengganti <a href="https://glyphicons.com" title="Glyphicons" target="_blank">Glyphicon</a> ke <a href="https://jqueryholic.blogspot.co.id" title="MMBB Template Blog" target="_blank">MMBB-font</a> icon, remove CSS dan JS default Blogger.</li>
              <li><span class="text-muted">26 Maret 2017 &middot;</span> Mengganti komentar default Blogger ke <a href="https://disqus.com" target="_blank" title="Disqus comment">Disqus</a>.</li>
              <li><span class="text-muted">30 Maret 2017 &middot;</span> Add Archive Widget style HIERARCHY, tanpa JS default Blogger.</li>
 
